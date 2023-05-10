@@ -26,6 +26,7 @@ bundle install
 After installing the dependencies and configuring the environment, let's run the tests.
 ```
 rake test[brand_environment, exec_device, exec_mode, graphic_mode, tags]
+
 rake test[hlg,desktop,local,graphic,@challenge]
 ```
 brand_environment -hlg
