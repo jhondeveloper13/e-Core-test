@@ -1,0 +1,18 @@
+# Reports
+reports: --format pretty --format AllureCucumber::CucumberFormatter --out allure-results
+
+# Brands e Environments
+hlg: HOST='https://automation-sandbox-python-mpywqjbdza-uc.a.run.app/'
+
+
+# Execution device
+desktop: DEVICE=desktop
+mobile: DEVICE=mobile
+
+# Graphic mode
+headless: GRAPHIC_MODE=headless
+graphic:  GRAPHIC_MODE=graphic
+
+# Execution
+remote: MODE=remote
+local:  MODE=local
